@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>POPUP REGISTER</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="popup-info-icon">
+        <div class="popup-info-icon-div">
+            <button class="popup-info-icon-close">
+                <svg class="icon-fill" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"
+                    fill="#000" fill-opacity="0.82" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle stroke="#000" stroke-opacity="0.82" cx="12" cy="12" r="10"></circle>
+                    <line class="line" stroke="#fff" x1="15" y1="9" x2="9" y2="15"></line>
+                    <line class="line" stroke="#fff" x1="9" y1="9" x2="15" y2="15"></line>
+                </svg>
+            </button>
+            <div class="title-subtitle-cont">
+                <p class="popup-open-info-icon">Շնորհակալություն կապ հաստատելու համար
+                </p>
+                <p class="subtitle">Առաջիկա <span>24 ժամերի</span>ընթացքում մենք կապ կհաստատենք Ձեզ հետ, <span>սիրով՝
+                        PIXEL IT SCHOOL</span>💜</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let popupContainer2 = document.querySelector('.popup-info-icon');
+        let buttonPopupIcon2 = document.querySelector('.popup-info-icon-close');
+
+        buttonPopupIcon2.onclick = () => {
+            popupContainer2.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
